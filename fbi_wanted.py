@@ -4,7 +4,7 @@ import os
 import time
 
 # Define the directory to save the CSV
-save_directory = '/home/frankie/Documents/FBIWANTED'
+save_directory = '/path/to/your/download/directory'
 os.makedirs(save_directory, exist_ok=True)  # Create directory if it doesn't exist
 
 # Initialize an empty DataFrame
